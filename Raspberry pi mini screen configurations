@@ -1,0 +1,7 @@
+#LCD mini screen setup and configaration for the (LCD35-show)
+sudo rm -rf LCD-show
+git clone https://github.com/goodtft/LCD-show.git
+chmod -R 755 LCD-show
+cd LCD-show/
+sudo ./LCD35-show 180  
+#the 180 is to make a vartucal rotation of the screen 
